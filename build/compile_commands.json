@@ -1,0 +1,242 @@
+[
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/record",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/record.dir/rm_file_handle.cpp.o -c /home/sidusantares/data/rucbase-lab/src/record/rm_file_handle.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/record/rm_file_handle.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/record",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/record.dir/rm_scan.cpp.o -c /home/sidusantares/data/rucbase-lab/src/record/rm_scan.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/record/rm_scan.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/record",
+  "command": "/usr/bin/c++ -Drecords_EXPORTS -I/home/sidusantares/data/rucbase-lab/src -Wall -g -fPIC -o CMakeFiles/records.dir/rm_file_handle.cpp.o -c /home/sidusantares/data/rucbase-lab/src/record/rm_file_handle.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/record/rm_file_handle.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/record",
+  "command": "/usr/bin/c++ -Drecords_EXPORTS -I/home/sidusantares/data/rucbase-lab/src -Wall -g -fPIC -o CMakeFiles/records.dir/rm_scan.cpp.o -c /home/sidusantares/data/rucbase-lab/src/record/rm_scan.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/record/rm_scan.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/record",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/rm_gtest.dir/rm_gtest.cpp.o -c /home/sidusantares/data/rucbase-lab/src/record/rm_gtest.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/record/rm_gtest.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/index",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/index.dir/ix_node_handle.cpp.o -c /home/sidusantares/data/rucbase-lab/src/index/ix_node_handle.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/index/ix_node_handle.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/index",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/index.dir/ix_index_handle.cpp.o -c /home/sidusantares/data/rucbase-lab/src/index/ix_index_handle.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/index/ix_index_handle.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/index",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/index.dir/ix_scan.cpp.o -c /home/sidusantares/data/rucbase-lab/src/index/ix_scan.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/index/ix_scan.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/index",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/index.dir/__/common/rwlatch.cpp.o -c /home/sidusantares/data/rucbase-lab/src/common/rwlatch.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/common/rwlatch.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/index",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/b_plus_tree_insert_test.dir/b_plus_tree_insert_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/index/b_plus_tree_insert_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/index/b_plus_tree_insert_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/index",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/b_plus_tree_delete_test.dir/b_plus_tree_delete_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/index/b_plus_tree_delete_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/index/b_plus_tree_delete_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/index",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/b_plus_tree_concurrent_test.dir/b_plus_tree_concurrent_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/index/b_plus_tree_concurrent_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/index/b_plus_tree_concurrent_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/system",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/system.dir/sm_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/system/sm_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/system/sm_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/system",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/sm_gtest.dir/sm_gtest.cpp.o -c /home/sidusantares/data/rucbase-lab/src/system/sm_gtest.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/system/sm_gtest.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/execution",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/execution.dir/execution_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/execution/execution_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/execution/execution_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/execution",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/exec_sql.dir/exec_sql.cpp.o -c /home/sidusantares/data/rucbase-lab/src/execution/exec_sql.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/execution/exec_sql.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/parser",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/parser.dir/yacc.tab.cpp.o -c /home/sidusantares/data/rucbase-lab/src/parser/yacc.tab.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/parser/yacc.tab.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/parser",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/parser.dir/lex.yy.cpp.o -c /home/sidusantares/data/rucbase-lab/src/parser/lex.yy.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/parser/lex.yy.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/parser",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/parser.dir/ast.cpp.o -c /home/sidusantares/data/rucbase-lab/src/parser/ast.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/parser/ast.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/storage",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/storage.dir/disk_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/storage/disk_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/storage/disk_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/storage",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/storage.dir/buffer_pool_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/storage/buffer_pool_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/storage/buffer_pool_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/storage",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/storage.dir/__/replacer/lru_replacer.cpp.o -c /home/sidusantares/data/rucbase-lab/src/replacer/lru_replacer.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/replacer/lru_replacer.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/storage",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/storage.dir/__/replacer/clock_replacer.cpp.o -c /home/sidusantares/data/rucbase-lab/src/replacer/clock_replacer.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/replacer/clock_replacer.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/storage",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/disk.dir/disk_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/storage/disk_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/storage/disk_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/storage",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/disk_manager_test.dir/disk_manager_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/storage/disk_manager_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/storage/disk_manager_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/storage",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/buffer_pool_manager_test.dir/buffer_pool_manager_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/storage/buffer_pool_manager_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/storage/buffer_pool_manager_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/common",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/rwlatch.dir/rwlatch.cpp.o -c /home/sidusantares/data/rucbase-lab/src/common/rwlatch.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/common/rwlatch.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/replacer",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/lru_replacer.dir/lru_replacer.cpp.o -c /home/sidusantares/data/rucbase-lab/src/replacer/lru_replacer.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/replacer/lru_replacer.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/replacer",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/lru_replacer.dir/clock_replacer.cpp.o -c /home/sidusantares/data/rucbase-lab/src/replacer/clock_replacer.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/replacer/clock_replacer.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/replacer",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/clock_replacer.dir/lru_replacer.cpp.o -c /home/sidusantares/data/rucbase-lab/src/replacer/lru_replacer.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/replacer/lru_replacer.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/replacer",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/clock_replacer.dir/clock_replacer.cpp.o -c /home/sidusantares/data/rucbase-lab/src/replacer/clock_replacer.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/replacer/clock_replacer.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/replacer",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/lru_replacer_test.dir/lru_replacer_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/replacer/lru_replacer_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/replacer/lru_replacer_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/replacer",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/clock_replacer_test.dir/clock_replacer_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/replacer/clock_replacer_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/replacer/clock_replacer_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/transaction",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/transaction.dir/concurrency/lock_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/transaction/concurrency/lock_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/transaction/concurrency/lock_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/transaction",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/transaction.dir/transaction_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/transaction/transaction_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/transaction/transaction_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/transaction",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/txn_manager_test.dir/txn_manager_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/transaction/txn_manager_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/transaction/txn_manager_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/transaction",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/lock_manager_test.dir/lock_manager_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/transaction/lock_manager_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/transaction/lock_manager_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/transaction",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -o CMakeFiles/concurrency_test.dir/concurrency_test.cpp.o -c /home/sidusantares/data/rucbase-lab/src/transaction/concurrency_test.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/transaction/concurrency_test.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/recovery",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/recovery.dir/log_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/recovery/log_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/recovery/log_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/recovery",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/recovery.dir/log_recovery.cpp.o -c /home/sidusantares/data/rucbase-lab/src/recovery/log_recovery.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/recovery/log_recovery.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/recovery",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/src -Wall -g -o CMakeFiles/recovery.dir/checkpoint.cpp.o -c /home/sidusantares/data/rucbase-lab/src/recovery/checkpoint.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/recovery/checkpoint.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/recovery",
+  "command": "/usr/bin/c++ -Drecoverys_EXPORTS -I/home/sidusantares/data/rucbase-lab/src -Wall -g -fPIC -o CMakeFiles/recoverys.dir/log_manager.cpp.o -c /home/sidusantares/data/rucbase-lab/src/recovery/log_manager.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/recovery/log_manager.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/recovery",
+  "command": "/usr/bin/c++ -Drecoverys_EXPORTS -I/home/sidusantares/data/rucbase-lab/src -Wall -g -fPIC -o CMakeFiles/recoverys.dir/log_recovery.cpp.o -c /home/sidusantares/data/rucbase-lab/src/recovery/log_recovery.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/recovery/log_recovery.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/src/recovery",
+  "command": "/usr/bin/c++ -Drecoverys_EXPORTS -I/home/sidusantares/data/rucbase-lab/src -Wall -g -fPIC -o CMakeFiles/recoverys.dir/checkpoint.cpp.o -c /home/sidusantares/data/rucbase-lab/src/recovery/checkpoint.cpp",
+  "file": "/home/sidusantares/data/rucbase-lab/src/recovery/checkpoint.cpp"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/deps/googletest/googlemock",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/deps/googletest/googlemock/include -I/home/sidusantares/data/rucbase-lab/deps/googletest/googlemock -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/sidusantares/data/rucbase-lab/deps/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/sidusantares/data/rucbase-lab/deps/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/deps/googletest/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googlemock/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googlemock -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/sidusantares/data/rucbase-lab/deps/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/sidusantares/data/rucbase-lab/deps/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/deps/googletest/googletest",
+  "command": "/usr/bin/c++  -I/home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -I/home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/sidusantares/data/rucbase-lab/deps/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/sidusantares/data/rucbase-lab/build/deps/googletest/googletest",
+  "command": "/usr/bin/c++  -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/include -isystem /home/sidusantares/data/rucbase-lab/deps/googletest/googletest -Wall -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/sidusantares/data/rucbase-lab/deps/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/sidusantares/data/rucbase-lab/deps/googletest/googletest/src/gtest_main.cc"
+}
+]
