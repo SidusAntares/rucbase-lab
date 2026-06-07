@@ -53,8 +53,8 @@ void DiskManager::read_page(int fd, page_id_t page_no, char *offset, int num_byt
 page_id_t DiskManager::AllocatePage(int fd) {
     // Todo:
     // 简单的自增分配策略，指定文件的页面编号加1
+    return fd2pageno_[fd]++;
 
-    return -1;
 }
 
 /**
@@ -90,8 +90,8 @@ void DiskManager::destroy_dir(const std::string &path) {
 bool DiskManager::is_file(const std::string &path) {
     // Todo:
     // 用struct stat获取文件信息
-
-    return false;
+    struct stat st;
+    return stat(path.c_str(), &st) == 0 && S_ISREG(st.st_mode);
 }
 
 /**
@@ -101,7 +101,16 @@ void DiskManager::create_file(const std::string &path) {
     // Todo:
     // 调用open()函数，使用O_CREAT模式
     // 注意不能重复创建相同文件
-
+    if (is_file(path)) {
+        throw FileAlreadyExistsError(path);
+    }
+    int fd = open(path.c_str(), O_RDWR | O_CREAT, 0644);
+    if (fd < 0) {
+        throw UnixError();
+    }
+    if (close(fd) < 0) {
+        throw UnixError();
+    }
 }
 
 /**
@@ -111,7 +120,15 @@ void DiskManager::destroy_file(const std::string &path) {
     // Todo:
     // 调用unlink()函数
     // 注意不能删除未关闭的文件
-
+    if (!is_file(path)) {
+        throw FileNotFoundError(path);
+    }
+    if(path2fd_.count(path)){
+        throw FileNotClosedError(path);
+    }
+    if (unlink(path.c_str()) < 0) {
+        throw UnixError();
+    }
 }
 
 /**
@@ -121,8 +138,19 @@ int DiskManager::open_file(const std::string &path) {
     // Todo:
     // 调用open()函数，使用O_RDWR模式
     // 注意不能重复打开相同文件，并且需要更新文件打开列表
-
-    return -1;
+    if(!is_file(path)) {
+        throw FileNotFoundError(path);
+    }
+    if(path2fd_.count(path)) {
+        throw FileNotClosedError(path);
+    }
+    int fd = open(path.c_str(), O_RDWR);
+    if (fd < 0) {
+        throw UnixError();
+    }
+    path2fd_[path] = fd;
+    fd2path_[fd] = path;
+    return fd;
 }
 
 /**
@@ -132,7 +160,15 @@ void DiskManager::close_file(int fd) {
     // Todo:
     // 调用close()函数
     // 注意不能关闭未打开的文件，并且需要更新文件打开列表
-
+    if (!fd2path_.count(fd)) {
+        throw FileNotOpenError(fd);
+    }
+    std::string path = fd2path_[fd];
+    if (close(fd) < 0) {
+        throw UnixError();
+    }
+    path2fd_.erase(path);
+    fd2path_.erase(fd);
 }
 
 int DiskManager::GetFileSize(const std::string &file_name) {
