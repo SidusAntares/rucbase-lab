@@ -102,7 +102,7 @@ void DiskManager::create_file(const std::string &path) {
     // 调用open()函数，使用O_CREAT模式
     // 注意不能重复创建相同文件
     if (is_file(path)) {
-        throw FileAlreadyExistsError(path);
+        throw FileExistsError(path);
     }
     int fd = open(path.c_str(), O_RDWR | O_CREAT, 0644);
     if (fd < 0) {
